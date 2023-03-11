@@ -4,7 +4,7 @@ let result = document.getElementById("result");
 
 //function to fetch data from api
 
-let getMovie = () => {
+let getDriver = () => {
     let driverName = driverNameRef.value;
     let url = `http://ergast.com/api/f1/current/driverStandings=${driverName}`;
     //if input field is empty
@@ -52,6 +52,6 @@ let getMovie = () => {
 };
 
 
-searchBtn.addEventListener("click", getMovie);
-window.addEventListener("load", getMovie);
+searchBtn.addEventListener("click", getDriver);
+window.addEventListener("load", getDriver);
 console.log("sa");
