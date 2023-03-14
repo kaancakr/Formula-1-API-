@@ -54,4 +54,3 @@ let getDriver = () => {
 
 searchBtn.addEventListener("click", getDriver);
 window.addEventListener("load", getDriver);
-console.log("sa");
