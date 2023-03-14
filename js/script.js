@@ -6,7 +6,7 @@ let result = document.getElementById("result");
 
 let getDriver = () => {
     let driverName = driverNameRef.value;
-    let url = `http://ergast.com/api/f1/current/driverStandings`;
+    let url = `http://ergast.com/api/f1/current/driverStandings=&{driverName}`;
     //if input field is empty
 
     if (driverName.length <= 0) {
