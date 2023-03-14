@@ -24,7 +24,6 @@ let getDriver = () => {
                             <h2>${data.givenName}</h2>
                             <h2>${data.familyName}</h2>
                             <div class="rating">
-                                <img src="star-icon.svg">
                                 <h4>${data.points}</h4>
                                 <h4>${data.positionText}</h4>
                             </div>
@@ -33,7 +32,6 @@ let getDriver = () => {
                                 <span>${data.name}</span>
                                 <span>${data.url}</span>
                             </div>
-                            
                         </div>
                     </div>
                 `;

@@ -33,7 +33,7 @@ body {
     width: 90vw;
     max-width: 37.5em;
     padding: 3em 1.8em;
-    background-color: #111720;
+    background-color: #0F0E0E;
     border-radius: 20px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -121,19 +121,6 @@ h2{
     justify-content: center;
     color: #a0a0a0;
     margin: 0.6em 0;
-    font-weight: 300;
-}
-
-.genre{
-    display: flex;
-    justify-content: space-around;
-}
-
-.genre div{
-    border: 1px solid #a0a0a0;
-    font-size: 0.75em;
-    padding: 0.4em 1.6em;
-    border-radius: 0.4em;
     font-weight: 300;
 }
 
